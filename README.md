@@ -14,7 +14,9 @@ If you are working through these exercises in a take home fashion, please follow
      - [Docker Desktop](https://docs.docker.com/desktop/kubernetes/)'s built in Kubernetes cluster (easiest cluster to get going, and perfectly acceptable for this purpose)
      - or any other arrangement you can come up with that gives you access to a Kubernetes cluster
 3. Install Kubernetes management tools for accessing and troubleshooting your cluster
-   - The basic tool of course is [kubectl](https://kubernetes.io/docs/tasks/tools/), but we also _highly_ recommend trying out [k9s](https://k9scli.io/)
+   - The basic tool of course is [kubectl](https://kubernetes.io/docs/tasks/tools/)
+   - We also _highly_ recommend trying out [k9s](https://k9scli.io/)
+   - You'll need [helm](https://helm.sh/docs/intro/install/) if you wish to test helm releases
 4. Please work through the exercises and share your answers as well as your thought process for finding a solution
    - Create a branch in this git repo with your name, and commit a file (or files) that provide your solution to each scenario
    - This can be as simple as a fixed version of a manifest, or sometimes an inclusion of a missing item
