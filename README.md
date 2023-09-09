@@ -6,7 +6,7 @@ If you are working through these exercises in a take home fashion, please follow
 
 1. Clone this repo to your machine
 2. Create a Kubernetes cluster you can access
-   - This can be on a public cloud using their managed cluster, but it does NOT need to be in the cloud
+   - This can be on a public cloud using any managed cluster, but it does NOT need to be in the cloud or cost anything
    - You can create a local cluster using:
      - [minikube](https://minikube.sigs.k8s.io/docs/) (our preference)
      - [kind](https://kind.sigs.k8s.io/)
