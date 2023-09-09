@@ -8,10 +8,10 @@ If you are working through these exercises in a take home fashion, please follow
 2. Create a Kubernetes cluster you can access
    - This can be on a public cloud using any managed cluster, but it does NOT need to be in the cloud or cost anything
    - You can create a local cluster using:
-     - [minikube](https://minikube.sigs.k8s.io/docs/) (our preference)
+     - [minikube](https://minikube.sigs.k8s.io/docs/) (our preference among the somewhat advanced choices but not required)
      - [kind](https://kind.sigs.k8s.io/)
      - [k0s](https://k0sproject.io/)
-     - the built in Kubernetes cluster that comes with [Docker Desktop](https://docs.docker.com/desktop/kubernetes/)
+     - [Docker Desktop](https://docs.docker.com/desktop/kubernetes/)'s built in Kubernetes cluster (easiest cluster to get going, and perfectly acceptable for this purpose)
      - or any other arrangement you can come up with that gives you access to a Kubernetes cluster
 3. Install Kubernetes management tools for accessing and troubleshooting your cluster
    - The basic tool of course is [kubectl](https://kubernetes.io/docs/tasks/tools/), but we also _highly_ recommend trying out [k9s](https://k9scli.io/)
